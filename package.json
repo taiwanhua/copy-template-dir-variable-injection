@@ -1,5 +1,5 @@
 {
-  "name": "copy-template-dir",
+  "name": "copy-template-dir-variable-injection",
   "version": "1.4.0",
   "description": "High throughput template dir writes",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "standard && npm run deps && NODE_ENV=test node test",
     "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test/index.js"
   },
-  "repository": "yoshuawuyts/copy-template-dir",
+  "repository": "taiwanhua/copy-template-dir-variable-injection",
   "keywords": [
     "template",
     "directory",
@@ -20,8 +20,8 @@
   "dependencies": {
     "end-of-stream": "^1.1.0",
     "graceful-fs": "^4.1.3",
-    "maxstache": "^1.0.0",
-    "maxstache-stream": "^1.0.0",
+    "maxstache-variable-injection": "^1.0.0",
+    "maxstache-stream-variable-injection": "^1.0.0",
     "mkdirp": "^0.5.1",
     "noop2": "^2.0.0",
     "pump": "^1.0.0",
